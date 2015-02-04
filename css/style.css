@@ -1,0 +1,19 @@
+.partner-logos {
+  text-align: center;
+}
+img.partner-logo {
+  width:100%;
+  max-width:300px;
+}
+
+#script {
+  font-size: 1.3em;
+}
+#script ul {
+  text-align: left;
+  list-style-type: circle;
+  padding-top: 20px;
+}
+#script ul li {
+  margin-bottom: 10px;
+}
