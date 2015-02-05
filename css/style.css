@@ -21,3 +21,8 @@ img.partner-logo {
 .sp {
   display: inline-block;
 }
+
+/* override font-family */
+#content h1, .actionkit #content h2, .actionkit input[type=submit] {
+  font-family: 'museo-sans' !important;
+}
