@@ -56,7 +56,7 @@ jQuery( document ).ready(function( $ ) {
         }
 
         var data = {
-            campaignId: 'cbc-nn',
+            campaignId: 'chc-nn',
             userPhone: validatePhone(phone)
         };
 
