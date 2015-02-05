@@ -17,3 +17,7 @@ img.partner-logo {
 #script ul li {
   margin-bottom: 10px;
 }
+
+.sp {
+  display: inline-block;
+}
