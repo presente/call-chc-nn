@@ -56,19 +56,19 @@ jQuery( document ).ready(function( $ ) {
         }
 
         var data = {
-            campaignId: 'chc-nn',
+            campaignId: 5,
             userPhone: validatePhone(phone)
         };
 
         $.ajax({
-            url: 'http://api.call4netfreedom.org/create',
+            url: 'http://demandprogress.callpower.org/call/create',
             type: "get",
             dataType: "json",
             data: data,
             success: function(res) {
                 trackEvent('call-congress');
 
-                console.log('Placed call-congress call: ', res);
+                console.log('Placed call-power call: ', res);
             }
         });
         showOverlay();
